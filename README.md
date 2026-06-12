@@ -1,4 +1,4 @@
-# Nazifa Bari -- Personal Portfolio
+# Personal Portfolio
 
 A personal portfolio website built with React, 
 TypeScript, Tailwind CSS, and deployed on Vercel.
