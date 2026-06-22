@@ -1,7 +1,7 @@
 function Projects(){
 
 return(
- <div className= "flex bg-[#8E756E] w-full flex-col px-[25vh] pt-[5vh] h-screen ">
+ <div className= "flex bg-[#8E756E] w-full flex-col px-[15vh] pt-[5vh] h-screen ">
     <div className= "flex-1">
            <h1 className= "font-bold text-6xl italic text-[#F4C9D6] text-left pt-[10vh]">
             projects
