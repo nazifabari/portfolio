@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
-@theme {
-  --font-playfair: "Playfair Display", serif;
+/* // <weight>: Use a value from 300 to 700
+// <uniquifier>: Use a unique and descriptive class name */
+
+.cormorant-garamond-title {
+  font-family: "Cormorant Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }

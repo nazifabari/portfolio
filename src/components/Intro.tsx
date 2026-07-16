@@ -6,16 +6,16 @@ import { TypeAnimation } from 'react-type-animation';
 function Intro() {        
   return (
        
-    <div id="home" className="flex bg-[#8E756E] px-5 md:px-30 py-20 md:py-20 ">
+    <div id="home" className=" flex bg-[#8E756E] px-5 2xl:px-35 xl:py-10 xl:px-20">
 
-      <div className="flex-1 pt-5 md:pt-40 ">
+      <div className="flex-1 pt-5 md:pt-30  2xl:pt-50">
 
-        <div className="flex text-[6px] md:text-[13px] md:pb-[2px]  pb-[7px] font-semibold uppercase text-[#E8DBCC]/[0.78] items-center gap-2">
-         <span className=" w-[10px] h-[0.5px]  md:w-[26px] md:h-[1.5px] bg-[#F4C9D6]" />  computer science · class of 2027
+        <div className="flex text-[7px] md:text-[15px] font-semibold uppercase text-[#E8DBCC]/[0.78] items-center gap-2">
+         <span className=" w-[10px] h-[0.5px]  md:w-[30px] md:h-[2px] bg-[#F4C9D6] " />  computer science · class of 2027
         </div>
 
         <TypeAnimation
-          className="font-bold text-[23px] md:text-[100px] italic text-[#F4C9D6]"
+          className="font-bold pt-[20px] text-[25px] md:text-[100px] italic text-[#F4C9D6]"
           sequence={[
             'hi, i am nazifa!', 3000, 
             'welcome!', 1000, 
@@ -28,40 +28,38 @@ function Intro() {
           deletionSpeed={1}
         />
 
-        <h2 className="text-left font-semibold font-sans mt-2 md:mt-5 text-[#e8dbcc] md:text-[40px] text-[13px]" >CS @ University at Buffalo </h2>
+        <h2 className="text-left font-semibold cormorant-garamond-title  mt-5 md:mt-6 text-[#e8dbcc] md:text-[40px] text-[13px]" >CS @ University at Buffalo </h2>
 
-        <p className="text-left font-sans mt-2 md:mt-4 text-[#E8DBCC]/[0.85] leading-[1.62] text-[8px] md:text-[25px] ">
+        <p className="text-left font-sans mt-1 text-[#E8DBCC]/[0.85] leading-[1.62] text-[10px] md:text-[25px] md:w-[700px] 2xl:w-[900px] ">
           I am a computer science student at the University at Buffalo, graduating Fall 2027. 
-            <br />
           I enjoy building full-stack applications, from designing databases to building the interfaces
-             <br />
           people actually use.
         </p>
 
 
 
          <div className="flex gap-4 pt-[25px] md:pt-[45px] font-bold">
-          <a href="#projects" 
-          className="bg-[#F4C9D6] text-[#5C3A30] items-center px-[7px] py-[7px] md:px-[30px] md:py-[20px] text-[8px] md:text-[15px] rounded-full "
+
+          <a href="#projects"  className= "hover:bg-[#5C3A30] bg-[#F4C9D6] text-[#5C3A30] hover:text-[#e8dbcc] items-center px-[6px] py-[6px] md:px-[30px] md:py-[20px] text-[10px] md:text-[15px] rounded-full "
           > view my work →  </a>
-          <a href="mailto:nazifabari@gmail.com"
-          className="border border-[#e8dbcc]/[0.85] px-[7px] py-[7px] md:px-[30px] md:py-[20px] rounded-full text-[8px] md:text-[15px] text-[#e8dbcc] items-center"
+      
+          <a href="mailto:nazifabari@gmail.com" className= "hover:bg-[#5C3A30] border border-[#e8dbcc]/[0.85] hover:border-[#5C3A30] px-[6px] py-[6px] md:px-[30px] md:py-[20px] rounded-full text-[10px] md:text-[15px] text-[#e8dbcc] items-center"
           > get in touch </a>
         </div>
       </div>
 
 
 
-      <div className="md:px-[30px] pl-[15px] pt-[20px] md:pt-[40px] ">
-        <img 
+        <div className="pt-[50px] md:pt-[100px] 2xl:pr-[40px]">
+          <img 
           src={profilePhoto} 
           alt="profile image" 
-          className=" w-[140px] md:w-[500px] rounded-3xl border-2 border-[#F4C9D6]  "
+          className=" w-[150px]  lg:w-[420px]  2xl:w-[520px]  rounded-3xl border-2 border-[#F4C9D6]  "
         />
       </div>
      </div>
-      
    
+    
   )
 }
 
