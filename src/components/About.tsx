@@ -5,12 +5,31 @@ import { SiPydantic } from "react-icons/si";
 import { _React } from "@dev.icons/react";
 import Skills from './Skills'
 import { TypeAnimation } from 'react-type-animation';
+import { useState, useEffect, useRef } from 'react'
 
 
 function About(){
 
+  const [isVisible, setIsVisible] = useState(false)
+  const aboutRef = useRef(null)
+
+  useEffect(() => {
+ const observer = new IntersectionObserver(([entry]) => {
+    if (entry.isIntersecting) {
+      setIsVisible(true)
+    }
+  }, { threshold: 0.3 })
+
+  if (aboutRef.current) {
+    observer.observe(aboutRef.current)
+  }
+
+  return () => observer.disconnect()
+}, [])
+
+
 return(
-  <div  id="about"  className= "flex bg-[#8E756E] px-5 2xl:px-35 xl:py-20 xl:px-20 gap-20">
+  <div ref={aboutRef} id="about"  className= "flex bg-[#8E756E] px-5 2xl:px-35 xl:py-25 xl:px-20 gap-20">
 
     <div>
     <h1 className= "font-bold text-[20px] md:text-[75px] cormorant-garamond-title  italic text-[#F4C9D6] text-left">
@@ -18,7 +37,7 @@ return(
     </h1>
 
     <div className=" max-w-6 md:max-w-15 border-b-2 md:border-b-8 border-pink-200  w-full"></div>
-
+      {isVisible && 
         <TypeAnimation
           className="text-left font-sans text-[#e8dbcc]   text-[13px]  md:text-[25px]  w-[120px]  md:w-[500px] 2xl:w-[700px] pt-[40px] "
           sequence={[
@@ -31,7 +50,7 @@ return(
           repeat={1}
           deletionSpeed={1}
         />
-
+      }
     {/*note: make animation happen only when about is clicked or scrolled up on 
     <p className= " text-left font-sans text-[#e8dbcc] text-[30px] w-[500px] pt-[25px] "> 
          I'm driven by building software that makes a real difference in people's lives.
