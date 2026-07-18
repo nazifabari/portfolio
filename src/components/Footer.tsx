@@ -7,7 +7,7 @@ return(
 
         <span className=" text-[10px] md:text-[15px] text-[#e8dbcc]/[0.50] ">© 2026 NB</span>
 
-        <h1 className="tracking-[0.2em] font-bold italic text-[20px] md:text-[30px] text-[#F4C9D6] "     >NB</h1>
+        <h1 className="tracking-[0.1em] tangerine-bold italic text-[20px] md:text-[30px] text-[#F4C9D6] "     >NB</h1>
 
         
 

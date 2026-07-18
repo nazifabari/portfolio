@@ -29,20 +29,22 @@ function About(){
 
 
 return(
-  <div ref={aboutRef} id="about"  className= "flex bg-[#8E756E] px-5 2xl:px-35 xl:py-25 xl:px-20 gap-20">
+  <div ref={aboutRef}  className= "flex-col bg-[#8E756E] 2xl:px-30 xl:px-25 pt-10">
+        <div className="md:border-b-2 border-[#FFFFFF]/[0.10]  w-full"></div>
 
-    <div>
-    <h1 className= "font-bold text-[20px] md:text-[75px] cormorant-garamond-title  italic text-[#F4C9D6] text-left">
-                about me
-    </h1>
+    <div id="about"  className="">
+     <h2 className="uppercase tracking-[0.2em] text-[#e8dbcc]/[0.80] font-semibold pt-13 ">background</h2>
+           <h1 className= "font-bold cormorant-garamond-title text-[20px] md:text-[75px] italic text-[#F4C9D6]  ">
+            about me
+          </h1>
 
-    <div className=" max-w-6 md:max-w-15 border-b-2 md:border-b-8 border-pink-200  w-full"></div>
-      {isVisible && 
+    {/* <div className=" max-w-6 md:max-w-15 border-b-2 md:border-b-8 border-pink-200  w-full"></div> */}
+      {/* {isVisible && 
         <TypeAnimation
-          className="text-left font-sans text-[#e8dbcc]   text-[13px]  md:text-[25px]  w-[120px]  md:w-[500px] 2xl:w-[700px] pt-[40px] "
+          className="text-center font-sans text-[#e8dbcc]   text-[13px]  md:text-[25px]  w-full  pt-[20px] "
           sequence={[
             "I'm driven by building software that makes a real difference in people's lives. I believe in hands-on learning. I love learning new tools, concepts, and skills by jumping into projects and learning as I go. In my free time, you'll find me at the gym or with my nose in a book :)", 
-            3000
+            1000
           ]}
           wrapper="p"
           cursor={true}
@@ -50,27 +52,29 @@ return(
           repeat={1}
           deletionSpeed={1}
         />
-      }
-    {/*note: make animation happen only when about is clicked or scrolled up on 
-    <p className= " text-left font-sans text-[#e8dbcc] text-[30px] w-[500px] pt-[25px] "> 
-         I'm driven by building software that makes a real difference in people's lives.
-          In my free time, you'll find me at the gym or with my nose in a book :)</p> */}
+      } */}
+
+      <p className="text-center font-sans text-[#e8dbcc] text-[13px] md:text-[25px] w-full pt-[15px]  " >I'm driven by building software that makes a real difference in people's lives. I believe in hands-on learning. I love learning new tools, concepts, and skills by jumping into projects and learning as I go. In my free time, you'll find me at the gym or with my nose in a book :)</p>
 
     </div>
 
-    <div className= "border border-pink-200 max-w-[0px] h-[300px] mt-[50px] md:mt-[50px] md:h-[400px]"></div>
+        <div className="md:border-b-2 border-[#FFFFFF]/[0.10] pt-30 w-full"></div>
 
 
-    <div className= " ">
-        
-        <div>
+    <div id = "skills" className= "pt-13">
+
+        {/* <div className=" flex-col flex items-center"> */}
+          
+          <h2 className="uppercase tracking-[0.2em] text-[#e8dbcc]/[0.80] font-semibold ">technical skills</h2>
            <h1 className= "font-bold  cormorant-garamond-title text-[20px] md:text-[75px] italic text-[#F4C9D6]  ">
             languages & tools
-        </h1>
+          </h1>
 
-    <div className=" max-w-6 md:max-w-15 border-b-2 md:border-b-8 border-pink-200 w-full"></div>
 
-    <div className="flex flex-wrap gap-1 pt-[25px] md:gap-5 md:pt-[50px] justify-center">
+         {/* <div className=" max-w-6 md:max-w-15 border-b-2 md:border-b-8 border-pink-200 w-full"></div> */}
+        {/* </div> */}
+
+    <div className="flex flex-wrap md:gap-5 md:pt-[40px] justify-center">
         <Skills icon={<C size={30} /> } name="C" />
         <Skills icon= {<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" className=" w-4 h-4    md:w-8 md:h-8"/>} name="Python"/>
         <Skills icon={<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" className="md:w-8 md:h-8  w-4 h-4   " />} name="Java" />
@@ -93,7 +97,6 @@ return(
 
     </div>
 
-    </div>
 
 
 )

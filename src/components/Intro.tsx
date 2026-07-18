@@ -6,7 +6,7 @@ import { TypeAnimation } from 'react-type-animation';
 function Intro() {        
   return (
        
-    <div id="home" className=" flex bg-[#8E756E] px-5 2xl:px-35 xl:py-10 xl:px-20">
+    <div id="home" className=" flex bg-[#8E756E]  xl:py-20 xl:px-25 2xl:px-30">
 
       <div className="flex-1 pt-5 md:pt-30  2xl:pt-50">
 
@@ -15,7 +15,7 @@ function Intro() {
         </div>
 
         <TypeAnimation
-          className="font-bold pt-[20px] text-[25px] md:text-[100px] italic text-[#F4C9D6]"
+          className="font-bold pt-[20px] text-[25px] md:text-[70px] source-code-pro-n  text-[#F4C9D6]"
           sequence={[
             'hi, i am nazifa!', 3000, 
             'welcome!', 1000, 
@@ -40,10 +40,10 @@ function Intro() {
 
          <div className="flex gap-4 pt-[25px] md:pt-[45px] font-bold">
 
-          <a href="#projects"  className= "hover:bg-[#5C3A30] bg-[#F4C9D6] text-[#5C3A30] hover:text-[#e8dbcc] items-center px-[6px] py-[6px] md:px-[30px] md:py-[20px] text-[10px] md:text-[15px] rounded-full "
+          <a href="#projects"  className= "hover:bg-[#79605a] border border-[#F4C9D6] hover:border-[#5C3A30] bg-[#F4C9D6] text-[#5C3A30] hover:text-[#e8dbcc] items-center px-[6px] py-[6px] md:px-[30px] md:py-[20px] text-[10px] md:text-[15px] rounded-full "
           > view my work →  </a>
       
-          <a href="mailto:nazifabari@gmail.com" className= "hover:bg-[#5C3A30] border border-[#e8dbcc]/[0.85] hover:border-[#5C3A30] px-[6px] py-[6px] md:px-[30px] md:py-[20px] rounded-full text-[10px] md:text-[15px] text-[#e8dbcc] items-center"
+          <a href="mailto:nazifabari@gmail.com" className= "hover:bg-[#79605a] border border-[#e8dbcc]/[0.85] hover:border-[#5C3A30] px-[6px] py-[6px] md:px-[30px] md:py-[20px] rounded-full text-[10px] md:text-[15px] text-[#e8dbcc] items-center"
           > get in touch </a>
         </div>
       </div>
@@ -54,9 +54,10 @@ function Intro() {
           <img 
           src={profilePhoto} 
           alt="profile image" 
-          className=" w-[150px]  lg:w-[420px]  2xl:w-[520px]  rounded-3xl border-2 border-[#F4C9D6]  "
+          className=" w-[150px]  xl:w-[400px]  2xl:w-[520px]  rounded-3xl border-2 border-[#F4C9D6]  "
         />
       </div>
+      
      </div>
    
     

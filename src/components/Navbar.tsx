@@ -11,13 +11,12 @@ return (
 
 
 <nav className = "gap-8 flex p-4 font-semibold font-sans text-[#e8dbcc] text-xs md:text-lg justify-between">
-
-    <h1 className="tracking-[0.2em] font-bold italic text-[20px] md:text-[30px] text-[#F4C9D6] "     >NB</h1>
-
+        <h1 className="tracking-[0.1em] tangerine-bold italic text-[30px] md:text-[30px] text-[#F4C9D6] "     >NB</h1>
 
     <div className= " flex gap-8 pt-[6px] pl-[5px]">
  <a href="#home">home</a>
  <a href="#about">about</a>
+<a href="#skills">skills</a>
  <a href="#projects">projects</a>
    </div>
  

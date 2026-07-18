@@ -7,15 +7,20 @@ import portfolioPhoto from '../assets/portfolio_image.png'
 function Projects(){
 
 return(
- <div  id="projects" className= " bg-[#8E756E] px-5 xl:pb-50 xl:pt-20 2xl:px-35 xl:py-20 xl:px-20  ">
+ <div  id="projects" className= " bg-[#8E756E] 2xl:px-30  xl:px-25 pb-15  ">
+    
+    <div className="md:border-b-2 border-[#FFFFFF]/[0.10] pt-30 w-full"></div>
+
     <div className= "flex-1">
-           <h1 className= " font-bold text-[20px] md:text-[75px] cormorant-garamond-title  italic text-[#F4C9D6] text-left  ">
+        
+            <h2 className="uppercase tracking-[0.2em] text-[#e8dbcc]/[0.80] font-semibold pt-13 ">work</h2>
+           <h1 className= "font-bold cormorant-garamond-title text-[20px] md:text-[75px] italic text-[#F4C9D6]  ">
             projects
-        </h1>
-    <div className=" max-w-6 md:max-w-15 border-b-2 md:border-b-8 border-pink-200 pt-4 w-full"></div>
+          </h1>
+    {/* <div className=" max-w-6 md:max-w-15 border-b-2 md:border-b-8 border-pink-200 pt-4 w-full"></div> */}
 
 
-        <div className="grid pt-15 grid-cols-2 md:grid-cols-2 w-full gap-8 2xl:gap-20 ">
+        <div className="grid pt-[50px] grid-cols-2 md:grid-cols-2 w-full gap-10 2xl:gap-20 ">
 
             <article className = "bg-[#D4D4D4]/[0.10]  rounded-2xl border-1 border-[#FFFFFF]/[0.30] flex flex-col hover:-translate-y-5 transition-transform duration-400" >
                 {/* project image */}
@@ -38,8 +43,8 @@ return(
                     </div>
 
                     <div className = " flex gap-5 pt-4 mt-auto">
-                        <a className="text-[#e8dbcc] text-[12px]  "  href="">live demo ↗</a>         
-                        <a className="text-[#e8dbcc] text-[12px] "  href="https://github.com/nazifabari/couvrant-fashion-app">github</a>
+                        <a className="text-[#e8dbcc] text-[12px] hover:font-bold  "  href="">live demo ↗</a>         
+                        <a className="text-[#e8dbcc] text-[12px] hover:font-bold "  href="https://github.com/nazifabari/couvrant-fashion-app">github</a>
                     </div>
                 </div>
             </article>
@@ -64,8 +69,8 @@ return(
                     </div>
 
                     <div className = " flex gap-5 pt-4 mt-auto">
-                        <a className="text-[#e8dbcc] text-[12px]  "  href="">live demo ↗ </a>         
-                        <a className="text-[#e8dbcc] text-[12px] "  href="https://github.com/nazifabari/portfolio">github</a>
+                        <a className="text-[#e8dbcc] text-[12px] hover:font-bold  "  href="">live demo ↗ </a>         
+                        <a className="text-[#e8dbcc] text-[12px] hover:font-bold "  href="https://github.com/nazifabari/portfolio">github</a>
                     </div>
                 </div>
             </article>
