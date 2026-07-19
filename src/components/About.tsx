@@ -4,37 +4,37 @@ import { Postgresql } from "@dev.icons/react";
 import { SiPydantic } from "react-icons/si";
 import { _React } from "@dev.icons/react";
 import Skills from './Skills'
-import { TypeAnimation } from 'react-type-animation';
-import { useState, useEffect, useRef } from 'react'
+// import { TypeAnimation } from 'react-type-animation';
+// import { useState, useEffect, useRef } from 'react'
 
 
 function About(){
 
-  const [isVisible, setIsVisible] = useState(false)
-  const aboutRef = useRef(null)
+  // const [isVisible, setIsVisible] = useState(false)
+  // const aboutRef = useRef(null)
 
-  useEffect(() => {
- const observer = new IntersectionObserver(([entry]) => {
-    if (entry.isIntersecting) {
-      setIsVisible(true)
-    }
-  }, { threshold: 0.3 })
+//   useEffect(() => {
+//  const observer = new IntersectionObserver(([entry]) => {
+//     if (entry.isIntersecting) {
+//       setIsVisible(true)
+//     }
+//   }, { threshold: 0.3 })
 
-  if (aboutRef.current) {
-    observer.observe(aboutRef.current)
-  }
+//   if (aboutRef.current) {
+//     observer.observe(aboutRef.current)
+//   }
 
-  return () => observer.disconnect()
-}, [])
+//   return () => observer.disconnect()
+// }, [])
 
 
 return(
-  <div ref={aboutRef}  className= "flex-col bg-[#8E756E] 2xl:px-30 xl:px-25 pt-10">
-        <div className="md:border-b-2 border-[#FFFFFF]/[0.10]  w-full"></div>
+  <div   className= " bg-[#8E756E] px-5 2xl:px-30 xl:px-25 md:pt-10 pt-5">
+        <div className=" border-b-1 md:border-b-2 border-[#FFFFFF]/[0.10]  w-full"></div>
 
     <div id="about"  className="">
-     <h2 className="uppercase tracking-[0.2em] text-[#e8dbcc]/[0.80] font-semibold pt-13 ">background</h2>
-           <h1 className= "font-bold cormorant-garamond-title text-[20px] md:text-[75px] italic text-[#F4C9D6]  ">
+     <h2 className="uppercase tracking-[0.2em] text-[#e8dbcc]/[0.80] font-semibold pt-10 md:pt-13 md:text-[15px] text-[10px] ">background</h2>
+           <h1 className= "font-bold cormorant-garamond-title text-[40px] md:text-[75px] italic text-[#F4C9D6]  ">
             about me
           </h1>
 
@@ -54,19 +54,19 @@ return(
         />
       } */}
 
-      <p className="text-center font-sans text-[#e8dbcc] text-[13px] md:text-[25px] w-full pt-[15px]  " >I'm driven by building software that makes a real difference in people's lives. I believe in hands-on learning. I love learning new tools, concepts, and skills by jumping into projects and learning as I go. In my free time, you'll find me at the gym or with my nose in a book :)</p>
+      <p className="text-center font-sans text-[#e8dbcc] text-[15px] md:text-[25px] w-full md:pt-[15px] pt-[7px] " >I'm driven by building software that makes a real difference in people's lives. I believe in hands-on learning. I love learning new tools, concepts, and skills by jumping into projects and learning as I go. In my free time, you'll find me at the gym or with my nose in a book :)</p>
 
     </div>
 
-        <div className="md:border-b-2 border-[#FFFFFF]/[0.10] pt-30 w-full"></div>
+        <div className="border-b-1 md:border-b-2 border-[#FFFFFF]/[0.10] md:pt-25 pt-12 w-full"></div>
 
 
-    <div id = "skills" className= "pt-13">
+    <div id = "skills" className= "pt-10">
 
         {/* <div className=" flex-col flex items-center"> */}
           
-          <h2 className="uppercase tracking-[0.2em] text-[#e8dbcc]/[0.80] font-semibold ">technical skills</h2>
-           <h1 className= "font-bold  cormorant-garamond-title text-[20px] md:text-[75px] italic text-[#F4C9D6]  ">
+          <h2 className="uppercase tracking-[0.2em] text-[#e8dbcc]/[0.80] font-semibold md:text-[15px] text-[10px] ">technical skills</h2>
+           <h1 className= "font-bold  cormorant-garamond-title text-[40px] md:text-[75px] italic text-[#F4C9D6]  ">
             languages & tools
           </h1>
 
@@ -74,8 +74,8 @@ return(
          {/* <div className=" max-w-6 md:max-w-15 border-b-2 md:border-b-8 border-pink-200 w-full"></div> */}
         {/* </div> */}
 
-    <div className="flex flex-wrap md:gap-5 md:pt-[40px] justify-center">
-        <Skills icon={<C size={30} /> } name="C" />
+    <div className="flex flex-wrap gap-3.5 md:gap-5 md:pt-[40px]  pt-[20px] justify-center">
+        <Skills icon={<C className="w-4 h-4 md:w-8 md:h-8 " /> } name="C" />
         <Skills icon= {<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" className=" w-4 h-4    md:w-8 md:h-8"/>} name="Python"/>
         <Skills icon={<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" className="md:w-8 md:h-8  w-4 h-4   " />} name="Java" />
         <Skills icon={<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" className="md:w-8 md:h-8  w-4 h-4   " />} name="JavaScript" />
@@ -83,12 +83,12 @@ return(
         <Skills icon={<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" className="md:w-8 md:h-8 w-4 h-4  " />} name="HTML" />
         <Skills icon={<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" className="md:w-8 md:h-8 w-4 h-4  "/>} name="CSS" />
         <Skills icon={<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" className="md:w-8 md:h-8 w-4 h-4" />} name="Tailwind" />
-        <Skills icon={<Mysql size={35} />} name="MySQL" />
-        <Skills icon={<Postgresql size={30} />} name="PostgreSQL" />
+        <Skills icon={<Mysql className="w-4 h-4 md:w-8 md:h-8 " />} name="MySQL" />
+        <Skills icon={<Postgresql className="w-4 h-4 md:w-8 md:h-8 "/>} name="PostgreSQL" />
         <Skills icon= {<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlalchemy/sqlalchemy-original.svg" className="md:w-8 md:h-8 w-4 h-4  " />} name="SQLAlchemy" />
-        <Skills icon={<SiPydantic size={30} />} name="Pydantic" />
+        <Skills icon={<SiPydantic className="w-4 h-4 md:w-8 md:h-8 " />} name="Pydantic" />
         <Skills icon={<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg" className="md:w-8 md:h-8 w-4 h-4  " />} name="FastAPI" />
-        <Skills icon={<_React size={30} />} name="React" />
+        <Skills icon={<_React className="w-4 h-4 md:w-8 md:h-8 "/>} name="React" />
 
     </div>
 

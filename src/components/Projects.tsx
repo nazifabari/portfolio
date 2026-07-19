@@ -7,20 +7,19 @@ import portfolioPhoto from '../assets/portfolio_image.png'
 function Projects(){
 
 return(
- <div  id="projects" className= " bg-[#8E756E] 2xl:px-30  xl:px-25 pb-15  ">
+ <div  id="projects" className= " bg-[#8E756E] 2xl:px-30  xl:px-25 md:pb-15 px-5 pb-8  ">
     
-    <div className="md:border-b-2 border-[#FFFFFF]/[0.10] pt-30 w-full"></div>
+    <div className="border-b-1  md:border-b-2 border-[#FFFFFF]/[0.10] pt-15 w-full"></div>
 
-    <div className= "flex-1">
+    <div className= "">
         
-            <h2 className="uppercase tracking-[0.2em] text-[#e8dbcc]/[0.80] font-semibold pt-13 ">work</h2>
-           <h1 className= "font-bold cormorant-garamond-title text-[20px] md:text-[75px] italic text-[#F4C9D6]  ">
+        <h2 className="uppercase tracking-[0.2em] text-[#e8dbcc]/[0.80] font-semibold pt-10  md:text-[15px] text-[10px]  ">work</h2>
+           <h1 className= "font-bold cormorant-garamond-title  text-[40px] md:text-[75px] text-[#F4C9D6] leading-none ">
             projects
           </h1>
-    {/* <div className=" max-w-6 md:max-w-15 border-b-2 md:border-b-8 border-pink-200 pt-4 w-full"></div> */}
 
 
-        <div className="grid pt-[50px] grid-cols-2 md:grid-cols-2 w-full gap-10 2xl:gap-20 ">
+        <div className="grid pt-[35px] md:pt-[50px] grid-cols-1 md:grid-cols-2 w-full gap-10 2xl:gap-20 ">
 
             <article className = "bg-[#D4D4D4]/[0.10]  rounded-2xl border-1 border-[#FFFFFF]/[0.30] flex flex-col hover:-translate-y-5 transition-transform duration-400" >
                 {/* project image */}
