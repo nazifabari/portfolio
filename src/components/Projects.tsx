@@ -68,7 +68,7 @@ return(
                     </div>
 
                     <div className = " flex gap-5 pt-4 mt-auto">
-                        <a className="text-[#e8dbcc] text-[12px] hover:font-bold  "  href="">live demo ↗ </a>         
+                        <a className="text-[#e8dbcc] text-[12px] hover:font-bold  "  href="https://nazb.vercel.app">live demo ↗ </a>         
                         <a className="text-[#e8dbcc] text-[12px] hover:font-bold "  href="https://github.com/nazifabari/portfolio">github</a>
                     </div>
                 </div>
