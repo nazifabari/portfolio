@@ -33,8 +33,8 @@ return(
         <div className=" border-b-1 md:border-b-2 border-[#FFFFFF]/[0.10]  w-full"></div>
 
     <div id="about"  className="">
-     <h2 className="uppercase tracking-[0.2em] text-[#e8dbcc]/[0.80] font-semibold pt-10 md:pt-13 md:text-[15px] text-[10px] ">background</h2>
-           <h1 className= "font-bold cormorant-garamond-title text-[40px] md:text-[75px] italic text-[#F4C9D6]  ">
+     <h2 className="uppercase tracking-[0.2em] text-[#e8dbcc]/[0.80] font-semibold pt-10 md:pt-13 md:text-[12px] xl:text-[15px] text-[10px] ">background</h2>
+           <h1 className= "font-bold cormorant-garamond-title text-[40px]  md:text-[60px] xl:text-[75px] italic text-[#F4C9D6]  ">
             about me
           </h1>
 
@@ -54,7 +54,7 @@ return(
         />
       } */}
 
-      <p className="text-center font-sans text-[#e8dbcc] text-[15px] md:text-[25px] w-full md:pt-[15px] pt-[7px] " >I'm driven by building software that makes a real difference in people's lives. I believe in hands-on learning. I love learning new tools, concepts, and skills by jumping into projects and learning as I go. In my free time, you'll find me at the gym or with my nose in a book :)</p>
+      <p className="text-center font-sans text-[#e8dbcc] text-[15px] md:text-[20px] xl:text-[25px] w-full md:pt-[15px] pt-[7px] " >I'm driven by building software that makes a difference in people's lives. I believe in hands-on learning. I love learning new tools, concepts, and skills by jumping into projects and learning as I go. In my free time, you'll find me at the gym or with my nose in a book :)</p>
 
     </div>
 
@@ -65,8 +65,8 @@ return(
 
         {/* <div className=" flex-col flex items-center"> */}
           
-          <h2 className="uppercase tracking-[0.2em] text-[#e8dbcc]/[0.80] font-semibold md:text-[15px] text-[10px] ">technical skills</h2>
-           <h1 className= "font-bold  cormorant-garamond-title text-[40px] md:text-[75px] italic text-[#F4C9D6]  ">
+          <h2 className="uppercase tracking-[0.2em] text-[#e8dbcc]/[0.80] font-semibold  md:text-[12px] xl:text-[15px] text-[10px] ">technical skills</h2>
+           <h1 className= "font-bold  cormorant-garamond-title text-[40px] md:text-[60px] xl:text-[75px] italic text-[#F4C9D6]  ">
             languages & tools
           </h1>
 

@@ -13,8 +13,8 @@ return(
 
     <div className= "">
         
-        <h2 className="uppercase tracking-[0.2em] text-[#e8dbcc]/[0.80] font-semibold pt-10  md:text-[15px] text-[10px]  ">work</h2>
-           <h1 className= "font-bold cormorant-garamond-title  text-[40px] md:text-[75px] text-[#F4C9D6] leading-none ">
+        <h2 className="uppercase tracking-[0.2em] text-[#e8dbcc]/[0.80] font-semibold pt-10 md:text-[12px] xl:text-[15px] text-[10px]  ">work</h2>
+           <h1 className= "font-bold cormorant-garamond-title  text-[40px] md:text-[60px] xl:text-[75px] text-[#F4C9D6] leading-none ">
             projects
           </h1>
 
