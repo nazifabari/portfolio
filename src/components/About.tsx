@@ -56,7 +56,11 @@ return(
 
       <p className="text-center font-sans text-[#e8dbcc] text-[15px] md:text-[20px] xl:text-[25px] xl:px-10 w-full md:pt-[15px] pt-[7px] " 
       >I'm driven by building technology that makes people's lives easier and more accessible. 
-      A proud Dean's List student passionate about full stack and frontend development. 
+      A proud  <a className="text-[#F4C9D6] text-center font-sans text-[15px] md:text-[20px] xl:text-[25px] text-[#F4C9D6] underline hover:font-bold  "  href="https://meritpages.com/nazifa"> Dean's List</a> 
+        {' '}     
+
+      student  
+      passionate about full stack and frontend development. 
       I believe the best way to learn is by doing, jumping into real projects and picking up new tools along the way. 
       In my free time you'll find me at the gym or with my nose in a book.</p>
 

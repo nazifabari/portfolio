@@ -30,7 +30,7 @@ function Intro() {
 
         <h2 className=" text-center xl:text-left font-semibold cormorant-garamond-title  mt-5 md:mt-8 text-[#e8dbcc] xl:text-[40px] text-[23px] md:text-[30px]" >CS @ University at Buffalo </h2>
 
-        <p className="xl:text-left text-center font-sans mt-2 md:mt-5 text-[#E8DBCC]/[0.85] leading-[1.62] text-[15px] xl:text-[25px] md:text-[20px] w-full  xl:w-[700px] 2xl:w-[900px]">
+        <p className="xl:text-left text-center font-sans mt-2 md:mt-5 text-[#E8DBCC]/[0.85] leading-[1.62] text-[15px] xl:text-[25px] md:text-[20px] w-full  xl:w-[700px] 2xl:w-[1000px]">
           I am a computer science student at the University at Buffalo, graduating Fall 2027. 
           I enjoy building full-stack applications, from designing databases to building the interfaces
           people actually use.
@@ -52,11 +52,11 @@ function Intro() {
 
 
 
-        <div className="pt-[45px] md:pt-[80px] xl:pt-[130px] 2xl:pt-[110px] 2xl:pr-[80px] flex justify-center xl:justify-start order-1 xl:order-2  ">
+        <div className="pt-[45px] md:pt-[55px] xl:pt-[115px] 2xl:pt-[125px] 2xl:pr-[80px] flex justify-center xl:justify-start order-1 xl:order-2  ">
           <img 
           src={profilePhoto} 
           alt="profile image" 
-          className="  w-[250px] h-[270px]  md:h-[350px] xl:h-[450px] 2xl:h-[550px]  xl:w-[400px] md:w-[330px]  2xl:w-[450px]  rounded-3xl  object-cover object-top"
+          className="  w-[250px] h-[270px]  md:h-[350px] xl:h-[450px] 2xl:h-[500px]  xl:w-[400px] md:w-[330px]  2xl:w-[450px]  rounded-3xl  object-cover object-top"
         />
       </div>
       
