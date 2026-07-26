@@ -54,7 +54,11 @@ return(
         />
       } */}
 
-      <p className="text-center font-sans text-[#e8dbcc] text-[15px] md:text-[20px] xl:text-[25px] w-full md:pt-[15px] pt-[7px] " >I'm driven by building software that makes a difference in people's lives. I believe in hands-on learning. I love learning new tools, concepts, and skills by jumping into projects and learning as I go. In my free time, you'll find me at the gym or with my nose in a book :)</p>
+      <p className="text-center font-sans text-[#e8dbcc] text-[15px] md:text-[20px] xl:text-[25px] xl:px-10 w-full md:pt-[15px] pt-[7px] " 
+      >I'm driven by building technology that makes people's lives easier and more accessible. 
+      A proud Dean's List student passionate about full stack and frontend development. 
+      I believe the best way to learn is by doing, jumping into real projects and picking up new tools along the way. 
+      In my free time you'll find me at the gym or with my nose in a book.</p>
 
     </div>
 

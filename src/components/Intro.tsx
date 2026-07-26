@@ -8,7 +8,7 @@ function Intro() {
        
     <div id="home" className=" flex bg-[#8E756E] flex-col xl:flex-row py-10 px-5 md:py-20 xl:px-25 md:px-15 2xl:px-30">
 
-      <div className="flex-1 pt-5 xl:pt-30    2xl:pt-40 order-2 xl:order-1 ">
+      <div className="flex-1 pt-5 xl:pt-25   2xl:pt-35 order-2 xl:order-1 ">
 
         <div className="text-[10px] md:text-[15px] font-semibold uppercase text-[#E8DBCC]/[0.78]  hidden xl:block ">
         computer science · class of 2027
