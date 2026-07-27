@@ -15,7 +15,7 @@ function Contact() {
           <a href="https://www.linkedin.com/in/nzfa/" className= " py-2 px-5   hover:bg-[#79605a] border border-[#e8dbcc]/[0.85] hover:border-[#5C3A30] rounded-full text-[10px] md:text-[15px] text-[#e8dbcc]/[0.80] "
           > LinkedIn </a>
 
-          <a href="https://github.com/nazifabari" className= " py-2 px-5   hover:bg-[#79605a] border border-[#e8dbcc]/[0.85] hover:border-[#5C3A30] rounded-full text-[10px] md:text-[15px] text-[#e8dbcc]/[0.80] "
+          <a href="https://github.com/nazifadev" className= " py-2 px-5   hover:bg-[#79605a] border border-[#e8dbcc]/[0.85] hover:border-[#5C3A30] rounded-full text-[10px] md:text-[15px] text-[#e8dbcc]/[0.80] "
           > GitHub </a>
         </div>
 

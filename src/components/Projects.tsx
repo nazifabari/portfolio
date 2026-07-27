@@ -43,7 +43,7 @@ return(
 
                     <div className = " flex gap-5 pt-4 mt-auto">
                         <a className="text-[#e8dbcc] text-[12px] hover:font-bold  "  href="">live demo ↗</a>         
-                        <a className="text-[#e8dbcc] text-[12px] hover:font-bold "  href="https://github.com/nazifabari/couvrant-fashion-app">github</a>
+                        <a className="text-[#e8dbcc] text-[12px] hover:font-bold "  href="https://github.com/nazifadev/couvrant-fashion-app">github</a>
                     </div>
                 </div>
             </article>
@@ -54,7 +54,7 @@ return(
 
                <article className = "bg-[#D4D4D4]/[0.10]  rounded-2xl border-1 border-[#FFFFFF]/[0.30] flex flex-col hover:-translate-y-5 transition-transform duration-400  " >
                 {/* project image */}
-               <a href=""><img className = " w-full md:h-50 2xl:h-60 object-cover object-top rounded-t-2xl " src={portfolioPhoto} alt="project 2" /></a> 
+               <a href="https://nazb.vercel.app"><img className = " w-full md:h-50 2xl:h-60 object-cover object-top rounded-t-2xl " src={portfolioPhoto} alt="project 2" /></a> 
               
                     {/* text content div */}
                 <div className="flex flex-col flex-1 p-5           ">
@@ -69,7 +69,7 @@ return(
 
                     <div className = " flex gap-5 pt-4 mt-auto">
                         <a className="text-[#e8dbcc] text-[12px] hover:font-bold  "  href="https://nazb.vercel.app">live demo ↗ </a>         
-                        <a className="text-[#e8dbcc] text-[12px] hover:font-bold "  href="https://github.com/nazifabari/portfolio">github</a>
+                        <a className="text-[#e8dbcc] text-[12px] hover:font-bold "  href="https://github.com/nazifadev/portfolio">github</a>
                     </div>
                 </div>
             </article>
