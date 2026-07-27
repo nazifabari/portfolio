@@ -17,7 +17,7 @@ A personal portfolio website that showcases my skills, projects, and background.
 - Sections include: Home, About, Skills, Projects, Contact and Footer
   
 ## Getting Started
-1. clone the repository `git clone https://github.com/nazifabari/portfolio.git`
+1. clone the repository `git clone https://github.com/nazifadev/portfolio.git`
 2. `npm install`
 3. `npm run dev`
 
