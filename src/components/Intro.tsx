@@ -15,7 +15,7 @@ function Intro() {
         </div>
 
         <TypeAnimation
-          className="pt-[13px]  text-[45px] md:text-[60px] xl:text-[70px] 2xl:text-[90px] source-code-pro-n text-center xl:text-left leading-tight tracking-[-0.05em]  text-[#F4C9D6] "
+          className="pt-[8px]  text-[45px] md:text-[60px] xl:text-[70px] 2xl:text-[90px] source-code-pro-n text-center xl:text-left leading-tight tracking-[-0.05em]  text-[#F4C9D6] "
           sequence={[
             'hi, i am nazifa!', 3000, 
             'welcome!', 3000, 
@@ -28,7 +28,7 @@ function Intro() {
           deletionSpeed={1}
         />
 
-        <h2 className=" text-center xl:text-left font-semibold cormorant-garamond-title  mt-5 md:mt-8 text-[#e8dbcc] xl:text-[40px] text-[23px] md:text-[30px]" >CS @ University at Buffalo </h2>
+        <h2 className=" text-center xl:text-left font-semibold cormorant-garamond-title  mt-4 md:mt-8 text-[#e8dbcc] xl:text-[40px] text-[23px] md:text-[30px]" >CS @ University at Buffalo </h2>
 
         <p className="xl:text-left text-center font-sans mt-2 md:mt-5 text-[#E8DBCC]/[0.85] leading-[1.62] text-[15px] xl:text-[25px] md:text-[20px] w-full  xl:w-[700px] 2xl:w-[1000px]">
           I am a computer science student at the University at Buffalo, graduating Fall 2027. 
@@ -52,7 +52,7 @@ function Intro() {
 
 
 
-        <div className="pt-[45px] md:pt-[55px] xl:pt-[115px] 2xl:pt-[125px] 2xl:pr-[80px] flex justify-center xl:justify-start order-1 xl:order-2  ">
+        <div className="pt-[55px] md:pt-[55px] xl:pt-[115px] 2xl:pt-[125px] 2xl:pr-[80px] flex justify-center xl:justify-start order-1 xl:order-2  ">
           <img 
           src={profilePhoto} 
           alt="profile image" 
