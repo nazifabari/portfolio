@@ -19,7 +19,7 @@ function Intro() {
           sequence={[
             'hi, i am nazifa!', 3000, 
             'welcome!', 1000, 
-            'hi, i am nazifa!', 1000
+          
           ]}
           wrapper="h1"
           cursor={false}
