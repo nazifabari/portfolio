@@ -23,7 +23,7 @@ return(
 
             <article className = "bg-[#D4D4D4]/[0.10]  rounded-2xl border-1 border-[#FFFFFF]/[0.30] flex flex-col hover:-translate-y-5 transition-transform duration-400" >
                 {/* project image */}
-                <a href="https://couvrant.vercel.app/"><img className = " w-full md:h-50 2xl:h-60 object-cover object-center rounded-t-2xl "  src={couvrantPhoto} alt="project 1" /></a>
+                <a href="https://couvrant.vercel.app/"><img className = " w-full md:h-50 2xl:h-60 object-cover object-top rounded-t-2xl "  src={couvrantPhoto} alt="project 1" /></a>
 
                 {/* text content div */}
                 <div className=" p-5  flex flex-col flex-1         ">
