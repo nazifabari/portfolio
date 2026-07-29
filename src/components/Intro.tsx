@@ -15,7 +15,7 @@ function Intro() {
         </div>
 
         <TypeAnimation
-          className="pt-[8px]  text-[45px] md:text-[60px] xl:text-[70px] 2xl:text-[90px] source-code-pro-n text-center xl:text-left leading-tight tracking-[-0.05em]  text-[#F4C9D6] "
+          className="  text-[45px] md:text-[60px] xl:text-[70px] 2xl:text-[90px] source-code-pro-n text-center xl:text-left leading-tight tracking-[-0.05em]  text-[#F4C9D6] "
           sequence={[
             'hi, i am nazifa!', 3000, 
             'welcome!', 3000, 
