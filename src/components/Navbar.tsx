@@ -20,9 +20,9 @@ return (
    </div>
  
  
- <div  className="flex p-2 md:gap-2 gap-1"  >
-    <a  href="https://www.linkedin.com/in/nzfa/">  <FaLinkedin className = "text-[#e8dbcc] text-[30px] md:text-[35px]" /></a>
-    <a href="https://github.com/nazifadev"><FaGithub className = "text-[#e8dbcc] text-[30px] md:text-[35px] " />   </a>   </div>
+ <div  className="flex md:gap-2 gap-1"  >
+    <a  href="https://www.linkedin.com/in/nzfa/">  <FaLinkedin className = "text-[#e8dbcc] text-[27px] md:text-[35px]" /></a>
+    <a href="https://github.com/nazifadev"><FaGithub className = "text-[#e8dbcc] text-[27px] md:text-[35px] " />   </a>   </div>
 
 
 
