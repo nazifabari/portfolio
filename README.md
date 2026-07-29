@@ -18,8 +18,8 @@ A personal portfolio website that showcases my skills, projects, and background.
   
 ## Getting Started
 1. Clone the repository `git clone https://github.com/nazifadev/portfolio.git`
-2. `npm install`
-3. `npm run dev`
+2. Install dependencies `npm install`
+3. Start the development server `npm run dev`
 
 ## Live Demo
 [nazb.vercel.app](https://nazb.vercel.app)
