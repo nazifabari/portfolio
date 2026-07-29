@@ -24,7 +24,7 @@ function Intro() {
           wrapper="h1"
           cursor={false}
           speed={1}
-          repeat={1}
+          repeat={0}
           deletionSpeed={1}
         />
 
