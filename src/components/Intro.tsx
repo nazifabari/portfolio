@@ -52,7 +52,7 @@ function Intro() {
 
 
 
-        <div className="pt-[55px] md:pt-[55px] xl:pt-[115px] 2xl:pt-[125px] 2xl:pr-[80px] flex justify-center xl:justify-start order-1 xl:order-2  ">
+        <div className="pt-[40px] md:pt-[55px] xl:pt-[115px] 2xl:pt-[125px] 2xl:pr-[80px] flex justify-center xl:justify-start order-1 xl:order-2  ">
           <img 
           src={profilePhoto} 
           alt="profile image" 
