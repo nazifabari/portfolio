@@ -17,9 +17,7 @@ function Intro() {
         <TypeAnimation
           className="pt-[13px]  text-[45px] md:text-[60px] xl:text-[70px] 2xl:text-[90px] source-code-pro-n text-center xl:text-left leading-tight tracking-[-0.05em]  text-[#F4C9D6] "
           sequence={[
-            'hi, i am nazifa!', 3000, 
-            'welcome!', 1000, 
-          
+            'hi, i am nazifa!', 3000       
           ]}
           wrapper="h1"
           cursor={false}
